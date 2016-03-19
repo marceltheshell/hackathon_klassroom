@@ -1,2 +1,24 @@
-<h1>Welcome#index</h1>
-<p>Find me in app/views/welcome/index.html.erb</p>
+<%= render 'partials/_login_modal' %>
+<%= render 'partials/_signup_modal' %>
+<div class="overlay"></div>
+    <!-- NavBar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Brand</a>
+      </div><!-- /.container-fluid -->
+    </nav>
+    <!-- END NavBar -->
+    <header class="col-xs-12 col-xl-12">
+    	<h1>KLASSROOM</h1>
+    	<h2>Something really interesting about this</h2>
+    	<br>
+    	<button type="button" data-toggle="modal" href="#signup-modal" class="btn btn-primary btn-lg">Sign-up</button>
+		<button type="button" data-toggle="modal" href="#login-modal" class="btn btn-secondary btn-lg">Log-in</button>
+    </header>
+
+
+...
+
+<%= render 'partials/modal' %>
