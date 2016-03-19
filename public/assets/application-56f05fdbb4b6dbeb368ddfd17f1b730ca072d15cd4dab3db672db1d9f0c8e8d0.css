@@ -1,0 +1,58 @@
+/* line 1, /Users/Mel/dev/projects/hackathon/klass/v1/hackathon_klassroom/app/assets/stylesheets/criteria.scss */
+body {
+  background-color: black;
+}
+/* line 1, /Users/Mel/dev/projects/hackathon/klass/v1/hackathon_klassroom/app/assets/stylesheets/welcome.scss */
+html,
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/class-students-f373869e264829ec4dc72773b5e8306117e139b3e1627817ff844d5353b976bd.jpg) no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+/* line 19, /Users/Mel/dev/projects/hackathon/klass/v1/hackathon_klassroom/app/assets/stylesheets/welcome.scss */
+header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+/* line 28, /Users/Mel/dev/projects/hackathon/klass/v1/hackathon_klassroom/app/assets/stylesheets/welcome.scss */
+h1 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 80px;
+  white-space: nowrap;
+}
+
+/* line 35, /Users/Mel/dev/projects/hackathon/klass/v1/hackathon_klassroom/app/assets/stylesheets/welcome.scss */
+h2 {
+  margin: 0;
+  font-size: 30px;
+  white-space: nowrap;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
