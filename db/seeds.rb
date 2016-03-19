@@ -34,10 +34,25 @@ require 'ffaker'
 # end
 
 
+
+
   user = User.create(
     username: 'MarcelShell',
     password: "abc",
   )
+  
+5.times do
+  klass = Klass.create(
+  name: FFaker::Education::major,
+    # name: FFaker::Sport::name,
+    # max_headcount: rand(5..10),
+    # current_headcount: 1,
+    # description: FFaker::HipsterIpsum.paragraph,
+  user_id: 1,
+ 
+  )
+ 
+end
 
 
 #   20.times do
@@ -51,18 +66,8 @@ require 'ffaker'
 # end
 
 
-5.times do
-  klass = Klass.create(
-  name: FFaker::Education::major,
-    # name: FFaker::Sport::name,
-    # max_headcount: rand(5..10),
-    # current_headcount: 1,
-    # description: FFaker::HipsterIpsum.paragraph,
-  user_id: 1,
- 
-  )
- 
-end
+
+
 
 
 

@@ -1,62 +1,8 @@
 Rails.application.routes.draw do
 
+
+
   root 'welcome#index'
-
-  get 'welcome/index'
-
-  get 'sessions/new'
-
-  get 'sessions/create'
-
-  get 'sessions/destroy'
-
-  get 'criteria/index'
-
-  get 'criteria/show'
-
-  get 'criteria/new'
-
-  get 'criteria/create'
-
-  get 'criterias/index'
-
-  get 'criterias/show'
-
-  get 'criterias/new'
-
-  get 'criterias/create'
-
-  get 'seating_charts/index'
-
-  get 'seating_charts/show'
-
-  get 'seating_charts/new'
-
-  get 'seating_charts/create'
-
-  get 'students/index'
-
-  get 'students/show'
-
-  get 'students/new'
-
-  get 'students/create'
-
-  get 'klasses/index'
-
-  get 'klasses/show'
-
-  get 'klasses/new'
-
-  get 'klasses/create'
-
-  get 'users/index'
-
-  get 'users/show'
-
-  get 'users/new'
-
-  get 'users/create'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
