@@ -1,3 +1,45 @@
-// Place all the styles related to the Welcome controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+html,
+body {
+background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("img/class-students.jpg") no-repeat center center fixed; 
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 80px;
+  white-space: nowrap;
+}
+
+h2 {
+  margin: 0;
+  font-size: 30px;
+  white-space: nowrap;
+}
+
+
+
+
+
+
