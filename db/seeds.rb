@@ -19,34 +19,6 @@ require 'ffaker'
 # end
 
 
-# cities = City.create([
-# {name: "Austin"},
-# {name: "Columbus"},
-# {name: "Charlotte"},
-# {name: "Chicago"},
-# {name: "Baltimore"},
-# {name: "Boston"},
-# {name: "Dallas"},
-# {name: "Denver"},
-# {name: "Detroit"},
-# {name: "El Paso"},
-# {name: "Fort Worth"},
-# {name: "Houston"},
-# {name: "Indianapolis"},
-# {name: "Jacksonville"},
-# {name: "Los Angeles"},
-# {name: "Memphis"},
-# {name: "New York"},
-# {name: "Philadelphia"},
-# {name: "Phoenix"},
-# {name: "San Antonio"},
-# {name: "San Diego"},
-# {name: "San Francisco"},
-# {name: "San Jose"},
-# {name: "Seattle"},
-# ])
-
-
 # 4.times do
 #   user = User.create(
 #     first_name: FFaker::Name::first_name,
