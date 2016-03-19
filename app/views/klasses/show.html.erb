@@ -1,2 +1,9 @@
 <h1>Klasses#show</h1>
 <p>Find me in app/views/klasses/show.html.erb</p>
+<h2>Import Student Data</h2>
+
+<%=form_tag import_klasses_path, multipart: true do %>
+<%=file_field_tag :file %>
+<%=submit_tag "Import"%>
+<%end%>
+

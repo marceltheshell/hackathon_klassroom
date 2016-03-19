@@ -10,4 +10,10 @@ class KlassesController < ApplicationController
 
   def create
   end
+
+  def import
+  	Product.import(params[:file])
+  	redirect_to klass_path, notice: "Products imported."
+  end
+
 end
