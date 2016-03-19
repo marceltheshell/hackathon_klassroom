@@ -1,3 +1,5 @@
+<%= render 'partials/_login_modal' %>
+<%= render 'partials/_signup_modal' %>
 <div class="overlay"></div>
     <!-- NavBar -->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -12,6 +14,11 @@
     	<h1>KLASSROOM</h1>
     	<h2>Something really interesting about this</h2>
     	<br>
-    	<button type="button" class="btn btn-primary btn-lg">Sign-up</button>
-		<button type="button" class="btn btn-secondary btn-lg">Log-in</button>
+    	<button type="button" data-toggle="modal" href="#signup-modal" class="btn btn-primary btn-lg">Sign-up</button>
+		<button type="button" data-toggle="modal" href="#login-modal" class="btn btn-secondary btn-lg">Log-in</button>
     </header>
+
+
+...
+
+<%= render 'partials/modal' %>
