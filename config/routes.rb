@@ -2,6 +2,8 @@ Rails.application.routes.draw do
 
   root 'welcome#index'
 
+  get 'welcome/index'
+
   get 'sessions/new'
 
   get 'sessions/create'
