@@ -4,5 +4,17 @@ body {
 
 table {
 	margin-top: 80px;
-	background-color: black;
+	background-color: green;
+	border: solid 2px gray;
 }
+
+table th {
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+
+button {
+	align: right;
+}
+

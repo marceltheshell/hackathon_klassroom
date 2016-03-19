@@ -1,3 +1,34 @@
-// Place all the styles related to the seating_charts controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+	margin-top: 80px;
+}
+
+.first {
+	border: solid 2px gray;
+}
+
+.seat {
+	height: 100px;
+	width: 100px;
+}
+
+.aa {
+	background-color: #578772;
+}
+
+.bb {
+	background-color: #CB9A00;
+}
+
+.cc {
+	background-color: #B5C2D3;
+}
+
+.dd {
+	background-color: #213951;
+	color: white;
+}
+
+.break {
+	height: 50px;
+	width: 100vw;
+}
